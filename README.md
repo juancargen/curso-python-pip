@@ -15,6 +15,5 @@ cd app
 python3 -m venv env
 source env/bin/activate
 pip3 install -r requirements.txt
-python3 project.py
-python3 project2.py
+python3 main.py
 ```
