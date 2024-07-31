@@ -1,4 +1,4 @@
-import charts
+import chart
 import read_csv as mod_read_csv
 
 
@@ -43,5 +43,5 @@ print(labels)
 values = list(separate_population.values())
 print(values)
 
-charts.generate_bar_chart(country, labels, values)
-charts.generate_pie_chart(country, labels, values)
+chart.generate_bar_chart(country, labels, values)
+chart.generate_pie_chart(country, labels, values)
