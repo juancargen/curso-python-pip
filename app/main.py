@@ -30,7 +30,7 @@ def run():
 
   countries = df['Country/Territory'].values
   percentages = df['World Population Percentage'].values
-  chart.generate_pie_chart('Africa', countries, percentages)
+  chart.generate_pie_chart('Africa2_final_este_si', countries, percentages)
   
   # sin usar pandas para graficas pie y bar del pais ingresado en el input
   data = mod_read_csv.read_csv('data.csv')
